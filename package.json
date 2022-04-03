@@ -1,34 +1,8 @@
 {
-  "_from": "ha-server",
-  "_id": "ha-server@1.0.4",
-  "_inBundle": false,
-  "_integrity": "sha1-Fokq111IbGqnHdbQlhcKhNtIGao=",
-  "_location": "/ha-server",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "ha-server",
-    "name": "ha-server",
-    "escapedName": "ha-server",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "https://registry.nlark.com/rong-serve/download/rong-serve-1.0.4.tgz",
-  "_shasum": "16892ad75d486c6aa71dd6d096170a84db4819aa",
-  "_spec": "ha-server",
-  "_where": "C:\\Users\\MFHJ-DZ-001-072",
-  "author": {
-    "name": "RunField"
-  },
+  "author": "RunField",
   "bin": {
     "ha-server": "bin/serve.js"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "browser-sync": "^2.26.13",
     "gulp": "^4.0.2",
@@ -43,9 +17,17 @@
   },
   "license": "MIT",
   "name": "ha-server",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongleicode/ha-server.git"
+  },
   "scripts": {
     "start": "gulp"
   },
-  "version": "1.0.4"
+  "version": "1.0.0",
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/dongleicode/ha-server/issues"
+  },
+  "homepage": "https://github.com/dongleicode/ha-server#readme"
 }
