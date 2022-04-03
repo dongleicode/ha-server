@@ -1,0 +1,51 @@
+{
+  "_from": "ha-server",
+  "_id": "ha-server@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha1-Fokq111IbGqnHdbQlhcKhNtIGao=",
+  "_location": "/ha-server",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ha-server",
+    "name": "ha-server",
+    "escapedName": "ha-server",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.nlark.com/rong-serve/download/rong-serve-1.0.4.tgz",
+  "_shasum": "16892ad75d486c6aa71dd6d096170a84db4819aa",
+  "_spec": "ha-server",
+  "_where": "C:\\Users\\MFHJ-DZ-001-072",
+  "author": {
+    "name": "RunField"
+  },
+  "bin": {
+    "ha-server": "bin/serve.js"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "http-proxy-middleware": "^1.0.6",
+    "optimist": "^0.6.1"
+  },
+  "deprecated": false,
+  "description": "develop tool",
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "license": "MIT",
+  "name": "ha-server",
+  "repository": "",
+  "scripts": {
+    "start": "gulp"
+  },
+  "version": "1.0.4"
+}
